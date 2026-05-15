@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#5b8bd4" stroke="#3a6a9c" stroke-width="3"/>
+  
+  <!-- Inner circle -->
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#8fb8e8" stroke-width="2"/>
+  
+  <!-- Cross -->
+  <rect x="95" y="50" width="10" height="100" rx="2" fill="#fff"/>
+  <rect x="70" y="95" width="60" height="10" rx="2" fill="#fff"/>
+  
+  <!-- Decorative elements - dove -->
+  <path d="M 100 60 Q 110 50 120 60 Q 110 65 100 60" fill="#ffd54f" opacity="0.9"/>
+  <path d="M 100 60 Q 90 50 80 60 Q 90 65 100 60" fill="#ffd54f" opacity="0.9"/>
+  
+  <!-- Text arc (top) -->
+  <path id="textArc" d="M 50 85 A 45 45 0 0 1 150 85" fill="none"/>
+  <text font-family="Georgia, serif" font-size="14" fill="#fff">
+    <textPath href="#textArc" startOffset="50%" text-anchor="middle">ZIKRE KIDUSAN</textPath>
+  </text>
+  
+  <!-- Bottom text -->
+  <text x="100" y="140" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#fff" font-weight="300">Daily Devotions</text>
+  <text x="100" y="155" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="12" fill="#fff" font-weight="300">Spiritual Resources</text>
+</svg>
